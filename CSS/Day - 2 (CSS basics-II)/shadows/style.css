@@ -1,0 +1,13 @@
+h1{
+     /* width height blur */
+    text-shadow: 5px 5px 5px aqua;
+}
+
+.box{
+    border:  1px solid black;
+    width:200px;
+    height: 200px;
+    /* width height blur spread-radius */
+    box-shadow: 5px 5px 5px red , 10px 10px 10px green;
+    box-shadow: -5px -5px 5px red , 10px 10px 10px 10px green;
+}
