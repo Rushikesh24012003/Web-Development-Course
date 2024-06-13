@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+#wrapper{
+    height: 100vx;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+h1{
+    text-align: center;
+    align-content: center;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: 100px 1fr  70px;
+}
+
+
+.sub{
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+
+.button{
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 1px;
+   
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px ;
+   
+}
+
+.box1{
+    /* border: 1px solid black; */
+    width: 300px;
+    height: 150px;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow:  -4px -4px 1px gray , 4px 4px 1px gray;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 1);
+}
+
+.box2{
+    width: 300px;
+    height: 150px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 1);
+}
+
+.box3{
+    width: 300px;
+    height: 150px;
+    margin: auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 1);
+}
+
+.box4{
+    width: 300px;
+    height: 150px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 1);
+}
+
+.box5{
+    width: 300px;
+    height: 150px; 
+    margin: auto; 
+    border: 1px solid #ccc;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 1);
+}
+
+.box6{
+    width: 300px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 1);
+}
+
+#heading{
+    color: blue;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#para{
+   font-weight: bold;
+   margin-left: 10px;
+   margin-top: 11px; 
+}
+
+#date{
+    margin-left: 10px;
+    color: gray;
+}
+
+#para2{
+    font-size: small;
+    margin-left: 10px;
+}
+
+#link{
+    margin-left: 10px; 
+    color: blue;
+    font-size: small;
+   
+    
+}
